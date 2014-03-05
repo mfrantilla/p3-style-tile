@@ -1,25 +1,35 @@
-/* Your Website Styles */
-
-h3, h4, h5 {
-	font-family: 'Raleway', sans-serif;
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
 }
 
-h3 {
-	font-weight: bold;
-	font-size: 1.5em;
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
 }
 
-h4 {
-	color: orange;
-	font-size: 1.25em;
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
 }
 
-h5 {
-	font-weight: bold;
-	font-size: .75em;
+.color-1 {
+	background: #FCEEC9;
 }
-
-
+.color-2 {
+	background: #FF5952;
+}
+.color-3 {
+	background: #176075;
+}
 
 
 /* Show Grid */

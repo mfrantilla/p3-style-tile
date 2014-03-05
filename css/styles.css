@@ -21,6 +21,8 @@ section {
 	width: 50px;
 }
 
+/*Color Palette Formatting*/
+
 .color-1 {
 	background: #FCEEC9;
 }
@@ -30,6 +32,30 @@ section {
 .color-3 {
 	background: #176075;
 }
+
+
+/* Texture/Patterns Formatting */
+
+.pattern-1 {
+	background: url("../img/cream_pixels.png");
+}
+
+.pattern-2 {
+	background: url("../img/mooning.png");
+}
+
+.pattern-3 {
+	background: url("../img/knitting250px.png");
+}
+
+
+/* Font Styles */
+
+/* Link Styles */
+
+
+
+
 
 
 /* Show Grid */

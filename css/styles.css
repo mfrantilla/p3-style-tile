@@ -4,7 +4,9 @@ body {
 
 img {
 	float: left;
-	
+	margin-right: 2em;
+	margin-left: 0;
+
 }
 
 .container {
@@ -20,15 +22,35 @@ em {
 }
 
 /* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
 h1 {
 	font-family: 'Pacifico', cursive;
 	color: #FF5952;
-	font-size: 3em;
+	font-size: 4em;
 	margin-bottom: 2px;
 	line-height: 1em;
 }
-h2, h3, p {
-	margin: 0;
+
+h2, h3 {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	color: #176075;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 /* Layout for Style Tile*/
@@ -77,16 +99,50 @@ section {
 	background: url("../img/mooning.png");
 }
 
-
-/* Font Styles */
-li a {
-	font-family: 'Carriois Gothic SC', sans-serif;
-}
-
 /* Link Styles */
 
+a:link, a:visited {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #176075;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 
 
+/* Nav Styles */
+nav ul {
+	padding: 0;
+}
+nav li {
+	list-style: none;
+	display: inline;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+nav li a:link, nav li a:visited {
+	font-size: 1.5em;
+	color: #000;
+}
+
+nav li a:hover {
+	color: #FF5952;
+	text-decoration: none;
+}
+
+nav li span {
+	font-size: 2em;
+}
+
+
+hr {
+	background-color: #FF5952;
+	color: #FF5952;
+	border-style: dashed;
+}
 
 
 

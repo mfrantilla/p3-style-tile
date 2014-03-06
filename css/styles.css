@@ -1,4 +1,32 @@
+body {
+	background: url("../img/knitting250px.png");
+}
+
+img {
+	float: left;
+	
+}
+
+.container {
+	margin-top: 6em;
+	border-radius: 2em;
+	background: #f3f3f3;
+	padding: 5em;
+}
+
+em {
+	margin-bottom: 1em;
+	display: block;
+}
+
 /* Set Your Own Margin & Padding */
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: #FF5952;
+	font-size: 3em;
+	margin-bottom: 2px;
+	line-height: 1em;
+}
 h2, h3, p {
 	margin: 0;
 }
@@ -24,7 +52,7 @@ section {
 /*Color Palette Formatting*/
 
 .color-1 {
-	background: #FCEEC9;
+	background: #f3f3f3;
 }
 .color-2 {
 	background: #FF5952;
@@ -41,15 +69,19 @@ section {
 }
 
 .pattern-2 {
-	background: url("../img/mooning.png");
+	background: url("../img/knitting250px.png");	
 }
 
 .pattern-3 {
-	background: url("../img/knitting250px.png");
+
+	background: url("../img/mooning.png");
 }
 
 
 /* Font Styles */
+li a {
+	font-family: 'Carriois Gothic SC', sans-serif;
+}
 
 /* Link Styles */
 

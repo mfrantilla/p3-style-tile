@@ -19,6 +19,7 @@ img {
 em {
 	margin-bottom: 1em;
 	display: block;
+	color: #a8a8a8;
 }
 
 /* Set Your Own Margin & Padding */
@@ -138,10 +139,9 @@ nav li span {
 }
 
 
-hr {
-	background-color: #FF5952;
-	color: #FF5952;
-	border-style: dashed;
+.hr {
+	border-top: 2px dashed #FF5952;
+	height: 2px
 }
 
 
